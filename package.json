@@ -7,10 +7,10 @@
 		"vscode": "^1.76.0"
 	},
 	"author": {
-    "name": "Hung Hoang",
-    "email": "hunghq52@gmail.com"
-  },
-  "license": "MIT",
+		"name": "Hung Hoang",
+		"email": "hunghq52@gmail.com"
+	},
+	"license": "MIT",
 	"private": true,
 	"repository": {
 		"type": "git",
@@ -22,7 +22,7 @@
 		"theme",
 		"icons"
 	],
-	"icon": "icon.png",
+	"icon": "images/icon.png",
 	"categories": [
 		"Other",
 		"Themes"
@@ -37,13 +37,19 @@
 		]
 	},
 	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/commit-analyzer": "^9.0.2",
+		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/github": "^8.0.7",
+		"@semantic-release/release-notes-generator": "^10.0.3",
 		"@types/vscode": "^1.76.0",
 		"node": "^19.8.1",
+		"semantic-release": "^21.0.1",
 		"vscode-test": "^1.6.1"
 	},
 	"scripts": {
 		"build": "vite-node src/main.ts",
-		"build:ext": "vsce package --no-yarn",
+		"build:pub": "vsce package",
 		"dev": "vite-node src/main.ts -w",
 		"fix": "prettier --write src/**/*.ts"
 	},
@@ -57,6 +63,5 @@
 		"typescript": "^5.0.3",
 		"vite-node": "^0.29.8",
 		"vsce": "^2.15.0"
-	},
-	"version": "0.0.1"
+	}
 }
