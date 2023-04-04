@@ -648,4 +648,5 @@ export default {
   "esbuild.ts": "_f_esbuild",
   "mix.exs": "_f_mix",
   "mix.lock": "_f_mixlock",
+  ".releaserc": "_f_release"
 };
