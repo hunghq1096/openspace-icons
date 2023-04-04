@@ -1,0 +1,62 @@
+{
+	"name": "openspace-icons",
+	"displayName": "OpenSpace Icons",
+	"description": "Icons for Visual Studio Code",
+	"publisher": "OpenSpace",
+	"engines": {
+		"vscode": "^1.76.0"
+	},
+	"author": {
+    "name": "Hung Hoang",
+    "email": "hunghq52@gmail.com"
+  },
+  "license": "MIT",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hunqng/openspace-icons"
+	},
+	"homepage": "https://github.com/hunqng/openspace-icons",
+	"keywords": [
+		"vscode",
+		"theme",
+		"icons"
+	],
+	"icon": "icon.png",
+	"categories": [
+		"Other",
+		"Themes"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "openspace-icons",
+				"label": "OpenSpace Icons",
+				"path": "./icons.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.76.0",
+		"node": "^19.8.1",
+		"vscode-test": "^1.6.1"
+	},
+	"scripts": {
+		"build": "vite-node src/main.ts",
+		"build:ext": "vsce package --no-yarn",
+		"dev": "vite-node src/main.ts -w",
+		"fix": "prettier --write src/**/*.ts"
+	},
+	"dependencies": {
+		"@types/node": "^18.15.11",
+		"@typescript-eslint/eslint-plugin": "^5.57.0",
+		"@typescript-eslint/parser": "^5.57.0",
+		"eslint": "^8.37.0",
+		"ovsx": "^0.8.0",
+		"prettier": "^2.8.7",
+		"typescript": "^5.0.3",
+		"vite-node": "^0.29.8",
+		"vsce": "^2.15.0"
+	},
+	"version": "0.0.1"
+}
