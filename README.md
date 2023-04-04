@@ -5,6 +5,7 @@
 
 # OpenSpace Icons
   * Icons for [Visual Studio Code](https://code.visualstudio.com/).
+  * Icons are inspired and further customized based on [Bearded Icons](https://github.com/BeardedBear/bearded-icons).
   * Demo  
 
     ![alt demo](images/demo.png)
