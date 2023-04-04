@@ -22,11 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build icons
+      - name: Build
         run: npm run build
-
-      - name: Build package
-        run: npm run build:pub
 
       - name: Create release
         env:
