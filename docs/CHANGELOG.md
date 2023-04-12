@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1](https://github.com/hunqng/openspace-icons/compare/v1.1.0...v1.1.1) (2023-04-12)
+
+
+### Bug Fixes
+
+* update proto icon ([f65e4a0](https://github.com/hunqng/openspace-icons/commit/f65e4a0c7127f4b072764baa0f018b116e0f7c52))
+
 # [1.1.0](https://github.com/hunqng/openspace-icons/compare/v1.0.8...v1.1.0) (2023-04-12)
 
 
