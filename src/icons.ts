@@ -310,7 +310,8 @@ const icons = {
   ...icon("tox"),
   ...icon("mix"),
   ...icon("mixlock"),
-  ...icon("release")
+  ...icon("release"),
+  ...icon("protocol")
 };
 
 export default icons;
