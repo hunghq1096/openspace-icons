@@ -494,5 +494,5 @@ export default {
   deflate: "_f_zip",
   brotli: "_f_brotli",
   kra: "_f_krita",
-  proto: "_f_acemanifest"
+  proto: "_f_gbl"
 };
