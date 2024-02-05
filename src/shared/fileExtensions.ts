@@ -494,5 +494,7 @@ export default {
   deflate: "_f_zip",
   brotli: "_f_brotli",
   kra: "_f_krita",
-  proto: "_f_gbl"
+  proto: "_f_gbl",
+  yaml: "_f_yaml",
+  yml: "_f_yaml",
 };
